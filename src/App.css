@@ -1,0 +1,30 @@
+.themeFontColor {
+    color: coral;
+}
+
+tr{
+    cursor: pointer;
+}
+.logo{
+     height: 150px;
+     cursor: pointer;
+}
+table {
+  width: 100%;
+  border-collapse: collapse; /* remove double borders */
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  border: 1px solid #ccc; /* light gray border */
+  padding: 8px 12px;      /* space inside cells */
+  text-align: left;
+}
+
+thead {
+  background-color: #f7f7f7; /* subtle gray background for header */
+}
+
+tbody tr:hover {
+  background-color: #f0f8ff; /* light blue hover effect on rows */
+}
